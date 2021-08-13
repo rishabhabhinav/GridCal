@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GridCal.iml" filepath="$PROJECT_DIR$/.idea/GridCal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GridCalUI/.idea/GridCalUI.iml" filepath="$PROJECT_DIR$/../GridCalUI/.idea/GridCalUI.iml" />
     </modules>
   </component>
 </project>

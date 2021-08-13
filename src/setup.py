@@ -57,11 +57,7 @@ base_path = os.path.join('GridCal')
 
 packages = find_packages(exclude=['*docs', '*test', '*research', '*tests', '*Tutorials'])
 
-package_data = {'GridCal': ['*.md',
-                            '*.rst',
-                            'data/cables.csv',
-                            'data/transformers.csv',
-                            'data/wires.csv'],
+package_data = {
                 'GridCal.ThirdParty.pulp': ["AUTHORS", "LICENSE",
                                             "pulp.cfg.linux",
                                             "pulp.cfg.win",
@@ -78,7 +74,6 @@ package_data = {'GridCal': ['*.md',
 
 dependencies = ['setuptools>=41.0.1',
                 'wheel>=0.33.4',
-                "PySide2>=5.15",  # for now, 5.14 breaks the UI generation for development
                 "numpy>=1.19.0",
                 "scipy>=1.0.0",
                 "networkx>=2.1",
@@ -86,7 +81,6 @@ dependencies = ['setuptools>=41.0.1',
                 "xlwt>=1.3.0",
                 "xlrd>=1.1.0",
                 "matplotlib>=2.1.1",
-                "qtconsole>=4.5.4",
                 "pyDOE>=0.3.8",
                 "pySOT>=0.2.1",
                 "openpyxl>=2.4.9",
@@ -97,8 +91,6 @@ dependencies = ['setuptools>=41.0.1',
                 "pytest>=3.8",
                 "h5py>=2.9.0",
                 "numba>=0.46",  # to compile routines natively
-                "folium",  # to render web maps
-                'pyproj'
                 ]
 
 extras_require = {
