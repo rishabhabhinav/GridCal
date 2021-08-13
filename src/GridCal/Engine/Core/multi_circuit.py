@@ -13,9 +13,10 @@
 # You should have received a copy of the GNU General Public License
 # along with GridCal.  If not, see <http://www.gnu.org/licenses/>.
 
+import sys
 from typing import List, Dict, Tuple
 from uuid import getnode as get_mac, uuid4
-from datetime import timedelta
+from datetime import timedelta, datetime
 import networkx as nx
 from scipy.sparse import csc_matrix, lil_matrix
 from GridCal.Engine.Devices import *

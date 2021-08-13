@@ -23,161 +23,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="903393a6-e011-4cf7-964c-90325cdcb845" name="Default Changelist" comment="Moved GUI to a new repository">
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/about.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/benchmarks.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/change_log.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/data_sheets.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/development.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/BranchModel.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/BranchModel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GUI_IEEE39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GeneralConverterModel.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GridCal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/HVDC_diagrama2.dia.autosave" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/OPF_results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/analysis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/coefficients_structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/console.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/diagnostic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/gridcal_gui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/gui_ieee_39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/line_search_acceleratin_effect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/matrix-reduction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-arrays.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-coments.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-objects-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-objects.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-schematic-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-schematic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-types.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/pi_trafo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/profiles_import.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ptdf_result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ptdf_ts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/results-data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-opf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-pf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-stability.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-stochastic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-topology.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/awgsld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/busaddition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/downtriangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/filelocation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/fourhouses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/importprofiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/isslack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/loadprofilechart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/loads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/morebuses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/morebuseslines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/noslackbus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/plotoptions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/plotprofiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/pprofile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profilegraph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profileplot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profileselection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/qprofile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/resultselection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/resultsorting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/runpf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/runpftimeseries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/scaling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/snapshotpf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/threeawgsld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/threebusaddition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/timeevents.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/timeselection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/transformer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/transformerpower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/typescatalogue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editor1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editorY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editorZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/tower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/wires.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/video_tutorial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/vtdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/code_tutorials.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/install.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/run_with_interface.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/video_tutorials.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/gui.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/latex_preamble.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/make.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/ClassDiagram.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/CoefficientsStructure.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Compilation.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Compilation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Matrix_reduction.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/MultiCircuitStructure.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/MultiCircuitStructure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowDiagram.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowTimeSeriesDiagram.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowTimeSeriesDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/TapChanger.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/TapChanger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/pi-trafo.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Manual_of_GridCal.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Manual_of_GridCal.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/ClassDiagram.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/ClassDiagram.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/CoefficientsStructure.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/CoefficientsStructure.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/GridData.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Matrix_reduction.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Matrix_reduction.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/chapterhdr1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/frontpage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/pi-trafo.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/pi-trafo.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/StyleInd.ist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/bibliography.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/structure.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/structureB.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal_banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/HVDC_modelling.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/HVDC_modelling.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/GeneralConverterModel.dia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/chapterhdr1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/frontpage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/bibliography.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/structure.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/source/make_docs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/distribution_grid_library.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/distribution_grid_standalone.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/example_files.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/five_node_grid.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/line_definition_from_tower.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/power_flow_script.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/script_cheat_sheet.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/tutorials_module.rst" afterDir="false" />
+    <list default="true" id="903393a6-e011-4cf7-964c-90325cdcb845" name="Default Changelist" comment="Managed to compile the docs">
+      <change afterPath="$PROJECT_DIR$/src/GridCal/plot_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/install_gridcal_engine.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/IO/zip_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/IO/zip_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/basic_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/basic_structures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GridCal/__version__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/__version__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tutorials/defining_a_grid_from_scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tutorials/defining_a_grid_from_scratch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/demo_5_node.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/demo_5_node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/AnalysisDialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/AnalysisDialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/coordinates_dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/coordinates_dialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/GridCalMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/GridCalMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/sigma_analysis_dialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/sigma_analysis_dialogue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/LineBuilderDialogue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/LineBuilderDialogue.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -242,7 +111,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowDatabase.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GridCalUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/GridCal" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -251,11 +120,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/GridCal" />
       <recent name="$PROJECT_DIR$/../GridCalUI" />
       <recent name="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
       <recent name="$PROJECT_DIR$/../GridCalUI/src" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/tests/data/results/comparison" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
@@ -265,16 +134,16 @@
       <recent name="$PROJECT_DIR$/src/GridCal/Engine/Simulations/PowerFlow" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.make.sh">
+  <component name="RunManager" selected="Python.ExecuteGridCal">
     <configuration name="ExecuteGridCal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GridCal" />
+      <module name="GridCalUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/GridCal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -288,20 +157,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GridCalUI" />
+    <configuration name="setup (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GridCal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/doc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GridCalUI/doc/conf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,29 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="setup (UI)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GridCalUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GridCalUI/src/setup.py" />
-      <option name="PARAMETERS" value="bdist_wheel" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup (engine)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GridCal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,13 +201,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="make.sh" type="ShConfigurationType" temporary="true">
+    <configuration name="upload_to_pypi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GridCal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/upload_to_pypi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="install_gridcal_engine.sh" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../GridCalUI/doc/make.sh" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../GridCalUI/install_gridcal_engine.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/doc" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,18 +240,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.ExecuteGridCal" />
-      <item itemvalue="Python.setup" />
-      <item itemvalue="Python.setup (UI)" />
-      <item itemvalue="Python.conf" />
-      <item itemvalue="Shell Script.make.sh" />
+      <item itemvalue="Python.upload_to_pypi" />
+      <item itemvalue="Python.setup (1)" />
+      <item itemvalue="Python.setup (engine)" />
+      <item itemvalue="Shell Script.install_gridcal_engine.sh" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Shell Script.make.sh" />
-        <item itemvalue="Python.conf" />
-        <item itemvalue="Python.setup (UI)" />
-        <item itemvalue="Python.setup" />
         <item itemvalue="Python.ExecuteGridCal" />
+        <item itemvalue="Shell Script.install_gridcal_engine.sh" />
+        <item itemvalue="Python.setup (engine)" />
+        <item itemvalue="Python.setup (1)" />
+        <item itemvalue="Python.upload_to_pypi" />
       </list>
     </recent_temporary>
   </component>
@@ -713,14 +582,7 @@
       <workItem from="1628520643588" duration="315000" />
       <workItem from="1628523338824" duration="1426000" />
       <workItem from="1628764294783" duration="36000" />
-      <workItem from="1628852527619" duration="1277000" />
-    </task>
-    <task id="LOCAL-00111" summary="updated the README.md">
-      <created>1617284063378</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1617284063378</updated>
+      <workItem from="1628852527619" duration="6605000" />
     </task>
     <task id="LOCAL-00112" summary="Fixed the shunt voltage control">
       <created>1617362091712</created>
@@ -1058,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628853696596</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Managed to compile the docs">
+      <created>1628854074699</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1628854074699</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1082,7 +951,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added proper PSS/E Power Factory GridCal comparison files" />
     <MESSAGE value="changed travis config" />
     <MESSAGE value="full ATC" />
     <MESSAGE value="Added contingency rates" />
@@ -1107,7 +975,8 @@
     <MESSAGE value="Fixed issues with HVDC zero loading" />
     <MESSAGE value="Improved contingency functions docs" />
     <MESSAGE value="Moved GUI to a new repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved GUI to a new repository" />
+    <MESSAGE value="Managed to compile the docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Managed to compile the docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1209,7 +1078,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py</url>
-          <line>1683</line>
+          <line>1684</line>
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1350,17 +1219,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/GridCal/Engine/IO/zip_interface.py</url>
-          <line>341</line>
+          <line>340</line>
           <option name="timeStamp" value="564" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py</url>
-          <line>2059</line>
+          <line>2060</line>
           <option name="timeStamp" value="618" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py</url>
-          <line>2058</line>
+          <line>2059</line>
           <option name="timeStamp" value="619" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1442,7 +1311,7 @@
     <SUITE FILE_PATH="coverage/GridCal$conf.coverage" NAME="conf Coverage Results" MODIFIED="1628853896361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GridCalUI/doc" />
     <SUITE FILE_PATH="coverage/GridCal$defining_a_grid_from_scratch_with_profiles.coverage" NAME="defining_a_grid_from_scratch_with_profiles Coverage Results" MODIFIED="1616960070909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutorials" />
     <SUITE FILE_PATH="coverage/GridCal$newton_svc.coverage" NAME="newton_svc Coverage Results" MODIFIED="1616106111862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/power_flow" />
-    <SUITE FILE_PATH="coverage/GridCal$ExecuteGridCal.coverage" NAME="ExecuteGridCal Coverage Results" MODIFIED="1628527094358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal" />
+    <SUITE FILE_PATH="coverage/GridCal$ExecuteGridCal.coverage" NAME="ExecuteGridCal Coverage Results" MODIFIED="1628859979675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_test_latin_hypercube_py.coverage" NAME="Nosetests in test_latin_hypercube.py Coverage Results" MODIFIED="1617046286335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$demo_sum_of_int.coverage" NAME="demo_sum_of_int Coverage Results" MODIFIED="1615240494920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/genetic_algorithms/iDone" />
     <SUITE FILE_PATH="coverage/GridCal$test.coverage" NAME="test Coverage Results" MODIFIED="1612900533026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/CIM/cim_to_matpower/test" />
@@ -1457,7 +1326,7 @@
     <SUITE FILE_PATH="coverage/GridCal$PTDF_by_node_groups.coverage" NAME="PTDF_by_node_groups Coverage Results" MODIFIED="1619774485543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/PTDF" />
     <SUITE FILE_PATH="coverage/GridCal$switch_reduction_dense.coverage" NAME="switch_reduction_dense Coverage Results" MODIFIED="1615742845150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/grid_reduction/substation_reduction" />
     <SUITE FILE_PATH="coverage/GridCal$topology_driver.coverage" NAME="topology_driver Coverage Results" MODIFIED="1590932816525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal/Engine/Simulations/Topology" />
-    <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_tests.coverage" NAME="Nosetests in tests Coverage Results" MODIFIED="1622737509742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_tests.coverage" NAME="Nosetests in tests Coverage Results" MODIFIED="1628855765076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_admittance_matrix_test_py.coverage" NAME="Nosetests in admittance_matrix_test.py Coverage Results" MODIFIED="1609500304123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$newton_current.coverage" NAME="newton_current Coverage Results" MODIFIED="1597481272992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/power_flow" />
     <SUITE FILE_PATH="coverage/GridCal$fuerte_esquivel_acha_ambriz_perez_paper.coverage" NAME="fuerte_esquivel_acha_ambriz_perez_paper Coverage Results" MODIFIED="1607805654887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/upfc" />
@@ -1484,7 +1353,7 @@
     <SUITE FILE_PATH="coverage/GridCal$ac_opf.coverage" NAME="ac_opf Coverage Results" MODIFIED="1602504341020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal/Engine/Simulations/OPF" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_test_api_py.coverage" NAME="Nosetests in test_api.py Coverage Results" MODIFIED="1598803532944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$update_gui_file__1_.coverage" NAME="update_gui_file (1) Coverage Results" MODIFIED="1607546655496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal/Gui/Main" />
-    <SUITE FILE_PATH="coverage/GridCal$setup__1_.coverage" NAME="setup (UI) Coverage Results" MODIFIED="1628853620247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GridCalUI/src" />
+    <SUITE FILE_PATH="coverage/GridCal$setup__1_.coverage" NAME="setup (1) Coverage Results" MODIFIED="1628859696965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_PTDF_research2_py.coverage" NAME="Nosetests in PTDF_research2.py Coverage Results" MODIFIED="1600161918846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/PTDF" />
     <SUITE FILE_PATH="coverage/GridCal$lightmap.coverage" NAME="lightmap Coverage Results" MODIFIED="1598594966764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/map" />
     <SUITE FILE_PATH="coverage/GridCal$V1_refractored.coverage" NAME="V1_refractored Coverage Results" MODIFIED="1617214204840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/PGD" />
@@ -1507,9 +1376,9 @@
     <SUITE FILE_PATH="coverage/GridCal$ACPTDF_research3.coverage" NAME="ACPTDF_research3 Coverage Results" MODIFIED="1601972014632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/PTDF" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_test_reverse_transformer_definition_py.coverage" NAME="Nosetests in test_reverse_transformer_definition.py Coverage Results" MODIFIED="1609501285838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$download_stats.coverage" NAME="download_stats Coverage Results" MODIFIED="1609500287850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
-    <SUITE FILE_PATH="coverage/GridCal$upload_to_pypi.coverage" NAME="upload_to_pypi Coverage Results" MODIFIED="1626211931095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GridCal$upload_to_pypi.coverage" NAME="upload_to_pypi Coverage Results" MODIFIED="1628859644396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GridCal$gis_dialogue.coverage" NAME="gis_dialogue Coverage Results" MODIFIED="1598594782912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal/Gui/GIS" />
-    <SUITE FILE_PATH="coverage/GridCal$setup.coverage" NAME="setup Coverage Results" MODIFIED="1628853540574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GridCal$setup.coverage" NAME="setup (engine) Coverage Results" MODIFIED="1628859738597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GridCal$admittance_variations.coverage" NAME="admittance_variations Coverage Results" MODIFIED="1603050030453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/admittance" />
     <SUITE FILE_PATH="coverage/GridCal$v3_pv.coverage" NAME="v3_pv Coverage Results" MODIFIED="1597644265099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/power_flow/asd/josep" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_for_tests_test_voltage_collapse.coverage" NAME="Nosetests for tests.test_voltage_collapse Coverage Results" MODIFIED="1602937737883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
