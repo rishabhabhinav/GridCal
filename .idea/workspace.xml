@@ -23,672 +23,156 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="903393a6-e011-4cf7-964c-90325cdcb845" name="Default Changelist" comment="Improved contingency functions docs">
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/about_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/icons/GridCal_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/AboutDialogue/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/AnalysisDialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Analysis/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/bus_viewer_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons/automatic_layout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons/grid_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons/minus (gray).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons/plus (gray).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons/resize.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/BusViewer/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ConsoleWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/coordinates_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/auto-link-rnd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/auto-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/copy2down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/import_profiles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/link-to-all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/link-to-selection.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/multiply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons/transform.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/CoordinatesInput/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ExecuteGridCal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/gis_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/map (night).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/map (night).xcf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/zoom_default.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/zoom_in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons/zoom_out.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GIS/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GeneralDialogues.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/battery_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/bus_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/dc_line_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/editor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/generator_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/generic_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/hvdc_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/line_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/load_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/messages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/shunt_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/static_generator_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/terminal_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/transformer2w_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/upfc_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridEditorWidget/vsc_graphics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/grid_generator_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/icons/automatic_layout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/icons/color_grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/icons/run_cascade_step.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GridGenerator/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/GuiFunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/auto-link-rnd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/auto-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/copy2down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/import_profiles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/link-to-all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/link-to-selection.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons/multiply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/load_designer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/LoadDesigner/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/ConsoleLog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/ConsoleLog.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/ConsoleLogController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/GridCalMain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/GridCal_icon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/GridCal_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/MainWindow (SE).ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/MainWindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/MainWindow.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/banner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/banner.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/grid_paint_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/Catalogue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/CatalogueAdd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/People.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/SE.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/SE_Listen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/abs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/add_batt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/add_gen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/add_load.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/add_shunt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/add_stagen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/array.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/assign_to_profile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/atc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/atc_ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/automatic_layout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/bars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/blackout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/blueprint.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/calculator.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/cdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/check_all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/chip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/clear_runs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/color_grid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/color_grid2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/console.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/continuation_power_flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/copy2down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/copy2left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/copy2right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/copy2up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/data.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/dc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/dcopf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/dcopf2ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/dcopf_ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/delete2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/delete3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/delete_conn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/detect_tr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/divide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/dyn.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/export_pickle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/grid_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/grid_reduction.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/highlight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/highlight2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/import.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/import_profiles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/latin_hypercube(OPF).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/latin_hypercube2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/load.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/load_add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/loadc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/magnifying_glass.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/magnifying_glass2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/measurement.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/minus (gray).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/move_bus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/multiply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/new.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/new2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/new2c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/opf2pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/opf_lh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/otdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/otdf_ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/paste.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/pf_lh.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/pf_ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/pf_ts_cluster.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/pic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/piece.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/plot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/plus (gray).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/powerplant.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/prev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/ptdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/ptdf_ts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/rate_br.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/redo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/resize.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/run_cascade.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/run_cascade_step.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/save.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/savec.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/schematic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/short_circuit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/show_color_controls.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/sigma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/squares.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/stochastic_pf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/stochastic_power_flow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/storage_loc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/sync.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/to_hvdc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/to_transformer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/to_upfc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/to_vsc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/uncheck_all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/undo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/unhighlight.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/upfc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons/vsc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/object_select_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Main/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/excel_dialog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/excel_sheet_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/excel_sheet_selection.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/auto-link-rnd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/auto-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/copy2down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/import_profiles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/link-to-all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/link-to-selection.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/multiply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons/transform.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/profile_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ProfilesInput/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/export_results_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/file_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/results_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Session/synchronization_driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/auto-link-rnd.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/auto-link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/copy2down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/import_profiles.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/link-to-all.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/link-to-selection.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/multiply.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons/sigma.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/sigma_analysis_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SigmaAnalysis/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons/accept.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons/accept2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons/delete2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/sync_dialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/SyncDialogue/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/LineBuilderDialogue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/gui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/calc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/gear.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons/plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/icons_rc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/matplotlibwidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/table_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/test_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/TowerBuilder/update_gui_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Visualization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/Visualization/visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/__version__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/data/cables.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/data/transformers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/data/wires.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/plot_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GridCalUI/src/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GridCal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GridCal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/Core/multi_circuit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/IO/zip_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/IO/zip_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Engine/basic_structures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridCal/Engine/basic_structures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/ExecuteGridCal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/about_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/icons/GridCal_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/AboutDialogue/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/AnalysisDialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Analysis/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/bus_viewer_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons/automatic_layout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons/grid_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons/minus (gray).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons/plus (gray).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons/resize.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/BusViewer/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ConsoleWidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/coordinates_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/auto-link-rnd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/auto-link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/copy2down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/import_profiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/link-to-all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/link-to-selection.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/multiply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons/transform.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/CoordinatesInput/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/gis_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/map (night).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/map (night).xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/map.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/zoom_default.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/zoom_in.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons/zoom_out.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GIS/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GeneralDialogues.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/battery_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/bus_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/dc_line_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/editor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/generator_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/generic_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/hvdc_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/line_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/load_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/messages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/shunt_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/static_generator_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/terminal_item.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/transformer2w_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/upfc_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridEditorWidget/vsc_graphics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/grid_generator_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/icons/automatic_layout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/icons/color_grid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/icons/run_cascade_step.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GridGenerator/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/GuiFunctions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/auto-link-rnd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/auto-link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/copy2down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/import_profiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/link-to-all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/link-to-selection.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons/multiply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/load_designer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/LoadDesigner/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/ConsoleLog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/ConsoleLog.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/ConsoleLogController.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/GridCalMain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/GridCal_icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/GridCal_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/MainWindow (SE).ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/MainWindow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/MainWindow.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/banner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/banner.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/grid_paint_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/Catalogue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/CatalogueAdd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/People.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/SE.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/SE_Listen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/abs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/add_batt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/add_gen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/add_load.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/add_shunt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/add_stagen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/array.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/assign_to_profile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/atc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/atc_ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/automatic_layout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/bars.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/blackout.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/blueprint.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/calculator.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/cdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/check_all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/chip.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/clear_runs.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/color_grid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/color_grid2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/console.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/continuation_power_flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/copy2down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/copy2left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/copy2right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/copy2up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/data.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/dc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/dcopf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/dcopf2ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/dcopf_ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/delete2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/delete3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/delete_conn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/detect_tr.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/divide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/dyn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/edit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/export_pickle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/grid_icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/grid_reduction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/highlight.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/highlight2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/import.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/import_profiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/latin_hypercube(OPF).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/latin_hypercube2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/load.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/load_add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/loadc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/magnifying_glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/magnifying_glass2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/map.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/measurement.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/minus (gray).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/move_bus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/multiply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/new.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/new2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/new2c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/opf2pf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/opf_lh.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/otdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/otdf_ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/paste.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/pf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/pf_lh.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/pf_ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/pf_ts_cluster.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/pic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/piece.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/plot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/plus (gray).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/powerplant.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/prev.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/ptdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/ptdf_ts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/rate_br.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/redo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/resize.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/run_cascade.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/run_cascade_step.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/save.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/savec.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/schematic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/short_circuit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/show_color_controls.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/sigma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/squares.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/stochastic_pf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/stochastic_power_flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/storage_loc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/sync.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/to_hvdc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/to_transformer.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/to_upfc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/to_vsc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/uncheck_all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/undo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/unhighlight.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/upfc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons/vsc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/object_select_window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Main/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/excel_dialog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/excel_sheet_selection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/excel_sheet_selection.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/auto-link-rnd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/auto-link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/copy2down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/import_profiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/link-to-all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/link-to-selection.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/multiply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons/transform.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/profile_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/ProfilesInput/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/export_results_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/file_handler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/results_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Session/synchronization_driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/auto-link-rnd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/auto-link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/copy2down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/import_profiles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/link-to-all.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/link-to-selection.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/multiply.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons/sigma.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/sigma_analysis_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SigmaAnalysis/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons/accept.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons/accept2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons/delete2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/sync_dialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/SyncDialogue/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/LineBuilderDialogue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/gui.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/calc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/edit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/gear.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons/plus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/icons_rc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/matplotlibwidget.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/table_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/test_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/TowerBuilder/update_gui_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Visualization/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/Visualization/visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/Gui/plot_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/data/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/data/cables.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/data/transformers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GridCal/data/wires.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/setup.py" afterDir="false" />
+    <list default="true" id="903393a6-e011-4cf7-964c-90325cdcb845" name="Default Changelist" comment="Moved GUI to a new repository">
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/about.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/benchmarks.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/change_log.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/data_sheets.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/development.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/BranchModel.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/BranchModel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/CompilationProcess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ElementBusAgregation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GUI_IEEE39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GeneralConverterModel.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/GridCal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/HVDC_diagrama2.dia.autosave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/OPF_results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/analysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/coefficients_structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/console.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/diagnostic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/gridcal_gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/gui_ieee_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/line_search_acceleratin_effect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/matrix-reduction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-arrays.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-coments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-objects-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-objects.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-schematic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-schematic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/model-types.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/pi_trafo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/profiles_import.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ptdf_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/ptdf_ts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/results-data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-opf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-stability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-stochastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/settings-topology.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/awgsld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/busaddition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/downtriangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/filelocation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/fourhouses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/importprofiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/isslack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/loadprofilechart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/loads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/morebuses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/morebuseslines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/noslackbus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/plotoptions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/plotprofiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/pprofile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profilegraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profileplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/profileselection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/qprofile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/resultselection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/resultsorting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/runpf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/runpftimeseries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/scaling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/snapshotpf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/threeawgsld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/threebusaddition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/timeevents.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/timeselection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/transformer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/transformerpower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/dg/typescatalogue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editorY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/editorZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/tower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/tutorials/tower/wires.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/video_tutorial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/figures/vtdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/code_tutorials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/install.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/run_with_interface.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/getting_started/video_tutorials.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/gui.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/latex_preamble.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/make.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/ClassDiagram.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/CoefficientsStructure.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Compilation.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Compilation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/Matrix_reduction.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/MultiCircuitStructure.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/MultiCircuitStructure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowDiagram.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowTimeSeriesDiagram.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/PowerFlowTimeSeriesDiagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/TapChanger.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/TapChanger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/Diagrams/pi-trafo.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Manual_of_GridCal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Manual_of_GridCal.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/ClassDiagram.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/ClassDiagram.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/CoefficientsStructure.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/CoefficientsStructure.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/GridData.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Matrix_reduction.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Matrix_reduction.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/Settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/chapterhdr1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/frontpage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/pi-trafo.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/pi-trafo.eps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/Pictures/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/StyleInd.ist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/bibliography.bib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/structure.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal/structureB.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/GridCal_banner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/HVDC_modelling.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/HVDC_modelling.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/GeneralConverterModel.dia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/chapterhdr1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/Pictures/frontpage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/bibliography.bib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/HVDC/structure.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/old_doc/source/make_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/distribution_grid_library.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/distribution_grid_standalone.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/example_files.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/five_node_grid.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/line_definition_from_tower.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/power_flow_script.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/script_cheat_sheet.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GridCalUI/doc/tutorials/tutorials_module.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -719,7 +203,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GridCalUI" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -758,7 +242,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowDatabase.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GridCalUI" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -767,11 +251,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../GridCalUI" />
       <recent name="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
       <recent name="$PROJECT_DIR$/../GridCalUI/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/tests/data/results/comparison" />
-      <recent name="C:\Users\penversa\Git\GridCal\src\GridCal\Engine\Simulations\ATC" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../GridCalUI/src/GridCalUi" />
@@ -781,7 +265,7 @@
       <recent name="$PROJECT_DIR$/src/GridCal/Engine/Simulations/PowerFlow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.setup (UI)">
+  <component name="RunManager" selected="Shell Script.make.sh">
     <configuration name="ExecuteGridCal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GridCal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -796,6 +280,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GridCalUI/src/GridCalUi/ExecuteGridCal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GridCalUI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/doc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GridCalUI/doc/conf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -848,64 +354,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="update_gui_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GridCal" />
+    <configuration name="make.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../GridCalUI/doc/make.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../GridCalUI/doc" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/GridCal/Gui/Main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/GridCal/Gui/Main/update_gui_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="upload_to_pypi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GridCal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/upload_to_pypi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.ExecuteGridCal" />
-      <item itemvalue="Python.update_gui_file" />
-      <item itemvalue="Python.upload_to_pypi" />
       <item itemvalue="Python.setup" />
       <item itemvalue="Python.setup (UI)" />
+      <item itemvalue="Python.conf" />
+      <item itemvalue="Shell Script.make.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.make.sh" />
+        <item itemvalue="Python.conf" />
         <item itemvalue="Python.setup (UI)" />
         <item itemvalue="Python.setup" />
         <item itemvalue="Python.ExecuteGridCal" />
-        <item itemvalue="Python.update_gui_file" />
-        <item itemvalue="Python.upload_to_pypi" />
       </list>
     </recent_temporary>
   </component>
@@ -1236,14 +713,7 @@
       <workItem from="1628520643588" duration="315000" />
       <workItem from="1628523338824" duration="1426000" />
       <workItem from="1628764294783" duration="36000" />
-      <workItem from="1628852527619" duration="855000" />
-    </task>
-    <task id="LOCAL-00110" summary="Updated pictures, updated the README.md">
-      <created>1617283697647</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1617283697647</updated>
+      <workItem from="1628852527619" duration="1277000" />
     </task>
     <task id="LOCAL-00111" summary="updated the README.md">
       <created>1617284063378</created>
@@ -1581,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627843175990</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="Moved GUI to a new repository">
+      <created>1628853696596</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1628853696596</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1605,7 +1082,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ATC and ATC time series working (not validated yet)" />
     <MESSAGE value="Added proper PSS/E Power Factory GridCal comparison files" />
     <MESSAGE value="changed travis config" />
     <MESSAGE value="full ATC" />
@@ -1630,7 +1106,8 @@
     <MESSAGE value="removed texas 2000 with profiles" />
     <MESSAGE value="Fixed issues with HVDC zero loading" />
     <MESSAGE value="Improved contingency functions docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved contingency functions docs" />
+    <MESSAGE value="Moved GUI to a new repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved GUI to a new repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1962,6 +1439,7 @@
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_in_test_transformer_type_py.coverage" NAME="Nosetests in test_transformer_type.py Coverage Results" MODIFIED="1619382550804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$Nosetests_for_tests_test_time_series_test_time_series.coverage" NAME="Nosetests for tests.test_time_series.test_time_series Coverage Results" MODIFIED="1617043238858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
     <SUITE FILE_PATH="coverage/GridCal$PTDF_research2.coverage" NAME="PTDF_research2 Coverage Results" MODIFIED="1602138084850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/PTDF" />
+    <SUITE FILE_PATH="coverage/GridCal$conf.coverage" NAME="conf Coverage Results" MODIFIED="1628853896361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GridCalUI/doc" />
     <SUITE FILE_PATH="coverage/GridCal$defining_a_grid_from_scratch_with_profiles.coverage" NAME="defining_a_grid_from_scratch_with_profiles Coverage Results" MODIFIED="1616960070909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Tutorials" />
     <SUITE FILE_PATH="coverage/GridCal$newton_svc.coverage" NAME="newton_svc Coverage Results" MODIFIED="1616106111862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/research/power_flow" />
     <SUITE FILE_PATH="coverage/GridCal$ExecuteGridCal.coverage" NAME="ExecuteGridCal Coverage Results" MODIFIED="1628527094358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/GridCal" />
